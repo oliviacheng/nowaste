@@ -27,19 +27,12 @@
         </style>
     </head>
     <body>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
-<script type="text/javascript">
-$(function(){
-    $('#button').click(function(){ 
-        if(!$('#iframe').length) {
-                $('#iframeHolder').html('<iframe id="iframe" src="https://www.youtube.com/watch?v=IIcSFQ3AKM8&list=RDIIcSFQ3AKM8&start_radio=1" width="700" height="450"></iframe>');
-        }
-    });   
-});
-</script>
- 
-<button id="button">Button</button>
-<div id="iframeHolder"></div>
-
+      
+	    <div id="background"></div>
+        <h1>Ebmedded WebAR Experience through echoAR</h1>
+          <iframe
+            src="https://go.echoar.xyz/qDRe"
+            title="echoAR WebAR iframe element">
+          </iframe>
     </body>
 </html>
